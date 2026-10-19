@@ -1,0 +1,9 @@
+- insert:
+    - id: branch-chat
+      name: dsh-plugin-branch-chat
+      config:
+        enabled: true
+        # dataPath: ~/.dsh/branch-chat/branches.jsonl
+        maxSummaryChars: 800 # 每个分支脉络摘要的字符预算
+        tailTurns: 6        # save 时默认取最近 K 轮做摘要
+        order: 720          # prompt section order (tools start at 1000)
